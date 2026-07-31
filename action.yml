@@ -1,0 +1,19 @@
+name: "Podcast Generator"
+author "Armen Balagyozyan"
+Decriiption "Course"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "git-branch"
+  color: "red"
+inputs:
+  email:
+    decriiption: The email
+    required: true
+    default: ${{ github.actor }}@localhost
+  name:
+    decriiption: name
+    required: true
+    default: ${{ github.actor }}

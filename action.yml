@@ -1,6 +1,6 @@
 name: "Podcast Generator"
-author "Armen Balagyozyan"
-Decriiption "Course"
+author: "Armen Balagyozyan"
+decriiption: "Course"
 
 runs:
   using: "docker"
